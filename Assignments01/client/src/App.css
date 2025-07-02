@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #eef2f3;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.student-id {
+  font-size: 15px;
+  color: #555;
+}
+
+section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: transform 0.2s;
+}
+
+section:hover {
+  transform: translateY(-2px);
+}
+
+section h2 {
+  font-size: 24px;
+  color: #3498db;
+  border-bottom: 2px solid #3498db22;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills span {
+  background: #3498db;
+  color: #fff;
+  padding: 7px 14px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.skills span:hover {
+  background: #2c80b4;
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666;
+}
